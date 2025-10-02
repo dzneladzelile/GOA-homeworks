@@ -9,5 +9,5 @@ for i in range(5):
     number = int(input("Enter number: "))
     average = total + number
 average = total // 5
-print("the average is:", average)
+print(average)
 
