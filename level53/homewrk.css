@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  margin: 20px;
 }
 
 h2 {
@@ -11,20 +12,17 @@ table {
   text-align: left;
 }
 
-thead tr.header-row {
+thead tr.row {
   background-color: #333;
   color: white;
 }
 
 thead th {
   text-transform: uppercase;
-  font-size: 14px;
 }
 
 tbody tr {
   color: white;
-  font-weight: 500;
-  font-size: 14px;
   cursor: pointer;
 }
 
@@ -33,7 +31,7 @@ tbody tr.blue {
 }
 
 tbody tr.green {
-  background-color: #5cb85c;
+  background-color: #5cb85c; 
 }
 
 tbody tr.yellow {
@@ -42,7 +40,7 @@ tbody tr.yellow {
 }
 
 tbody tr.red {
-  background-color: #d9534f; 
+  background-color: #d9534f;
 }
 
 tbody tr.cyan {
@@ -50,4 +48,6 @@ tbody tr.cyan {
   color: black; 
 }
 
-
+tbody tr td:last-child {
+  text-align: center;
+}
